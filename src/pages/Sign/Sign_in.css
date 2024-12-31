@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.Sign-in-page {
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	max-width: 440px;
+	left: 50%;
+	transform: translate(-50%, 0);
+    background-color: #f0f0f0;
+	overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.Sign-In-title {
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FF6A00;
+    margin-top: 120px;
+}
+
+.sign-input {
+    margin-top: 20px;
+}
+
+.Sign-In-text {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #FF6A00;
+    margin-top: 60px;
+}
+
+.checkbox-box {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.check-box {
+    width: 8px;
+    height: 8px;
+}
+
+.checkbox-text {
+    margin-left: 5px;
+    color: grey;
+}
+
+.password-search {
+    margin-left: auto;
+    color: #FF6A00;
+}
+
+.Sign-button-box {
+    margin-top: 50px;
+}
+
+.Sign-button {
+    background-image: linear-gradient(to right, #FF6A00, #FF8601);
+    height: 55px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.sign-up-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+}
+
+.sign-or-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(161, 161, 161);
+    margin-top: 40px;
+}
+
+.sign-line {
+    width: 40%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+}
+
+.google-login {
+    margin-top: 50px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 1px rgb(0, 0, 0, 0.1);
+}
+
+.google-login-box {
+    margin-top: 70px;
+}
