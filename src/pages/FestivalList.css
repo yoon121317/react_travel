@@ -1,0 +1,78 @@
+.List-body {
+    width: 60%;
+    height: 1600px;
+    margin: auto;
+}
+
+.festivel-Day {
+    display: flex;
+}
+
+.List-box {
+    display: flex;
+    flex-direction: column; /* 게시글을 세로로 나열 */
+    gap: 30px; /* 게시글 간의 간격 */
+    margin: 20px 0; /* 상단 및 하단 여백 */
+}
+
+.list-mo {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ccc; /* 카드 형태를 위한 테두리 */
+    border-radius: 8px; /* 둥근 모서리 */
+    padding: 15px; /* 내부 여백 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    background-color: #fff; /* 배경색 */
+    transition: 0.2s;/* 마우스 호버 시 애니메이션 */
+    padding: 20px 20px;
+}
+
+.list-mo:hover {
+    background-color: #FF6A00;
+    color: white;
+    transition: 0.2s;
+}
+
+.list-mo:hover .festivel-title {
+    color: white;
+    transition: 0.2s;
+}
+
+.list-mo:hover .festivel-Day {
+    color: white;
+    transition: 0.2s;
+}
+
+.pagination {
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+}
+
+.search-container {
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 27px;
+    background-color: red;
+}
+
+.festivel-Day {
+    font-weight: bold;
+    color: rgb(198, 198, 198);
+}
+
+.festival_local {
+    margin-top: 10px;
+}
+
+.left-day { 
+    margin-left: 20px;
+}
+
+.festivel-title {
+    color: #FF6A00;
+}
